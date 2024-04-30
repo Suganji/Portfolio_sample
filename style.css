@@ -1,0 +1,78 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: "Young Serif", serif;
+}
+.head {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
+.head h1 {
+  margin-bottom: 10px;
+}
+
+.head p {
+  margin-bottom: 20px;
+}
+.head a {
+  background-color: orangered;
+  padding: 7px;
+  color: white;
+}
+.para {
+  padding: 10px;
+}
+.para p {
+  margin-top: 15px;
+}
+.interest_container {
+  margin-top: 10px;
+  padding: 7px;
+  display: flex;
+}
+
+.interest {
+  width: 15%;
+  background-color: blue;
+  border-radius: 20px;
+  padding: 5px;
+}
+.interest h2 {
+  border-bottom: 1px solid grey;
+}
+.interest h2,
+p {
+  margin-top: 7px;
+}
+.myprojects {
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: orange;
+  padding: 5px;
+  border-radius: 20px;
+}
+.myprojects h2 {
+  border-bottom: 1px solid grey;
+}
+.myproject h3,
+p {
+  margin-top: 7px;
+}
+.footer {
+  margin: 10px;
+  padding: 7px;
+  background-color: black;
+  color: white;
+}
+.contact {
+  padding: 20px;
+}
+.btn {
+  margin-top: 10px;
+  background-color: orangered;
+  padding: 10px;
+  border: none;
+}
